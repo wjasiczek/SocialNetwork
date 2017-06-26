@@ -35,9 +35,9 @@ Details
 The application must use the console for input and output.  
 Users submit commands to the application. There are four commands. "posting", "reading", etc.  
 are not part of the commands; commands always start with the user's name.  
-	 posting: &lt;user name&gt; -&gt &lt;message&gt  
-	 reading: &lt;user name&gt; 
-	 following: &lt;user name&gt; follows &lt;another user&gt 
-	 wall: &lt;user name&gt wall  
+	 posting: <user name> -> <message> 
+	 reading: <user name> 
+	 following: <user name> follows <another user> 
+	 wall: <user name> wall  
    
 
