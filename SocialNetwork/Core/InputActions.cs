@@ -36,7 +36,7 @@ namespace SocialNetwork.Core
                     .OrderByDescending(x => x.CreateDateUTC);
 
                 foreach (var message in messages)
-                    Console.WriteLine(formattingStrategyProvider.GetStrategy<TimelineStrategy>().Format(message));
+                    Console.WriteLine(formattingStrategyProvider.GetStrategy<WallStrategy>().Format(message));
             };
     }
 }

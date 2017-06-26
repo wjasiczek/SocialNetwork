@@ -7,7 +7,7 @@ namespace SocialNetwork.Formatting
 {
     sealed class FormattingStrategyProvider : IFormattingStrategyProvider
     {
-        internal FormattingStrategyProvider(ITimeService timeService)
+        public FormattingStrategyProvider(ITimeService timeService)
         {
             RegisteredStrategies = new Dictionary<Type, IFormattingStrategy>
             {
