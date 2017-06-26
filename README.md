@@ -6,7 +6,7 @@ Application needs .NET Core 1.1 framework to be installed. To run it simply open
 Features
 
 Posting: Alice can publish messages to a personal timeline  
-`> Alice -> I love the weather today  
+`> Alice -> I love the weather today   
 `> Bob -> Damn! We lost!  
 `> Bob -> Good game though.  
 
