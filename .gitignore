@@ -1,0 +1,10 @@
+bin
+obj
+pkg
+packages
+*.suo
+*.user
+*.nupkg.bak
+*.nupkg
+*.orig
+*.vs
