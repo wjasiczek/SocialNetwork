@@ -1,6 +1,7 @@
 # SocialNetwork
 Twitter-like app
 Implement a console-based social networking application (similar to Twitter) satisfying the scenarios below.
+Application needs .NET Core 1.1 framework to be installed. To run it simply open the solution in Visual Studio and hit ctrl + f5.
 
 Features
 
@@ -38,4 +39,4 @@ are not part of the commands; commands always start with the user's name.
 	 following: <user name> follows <another user>
 	 wall: <user name> wall
    
-Applications needs .NET Core 1.1 framework to be installed. To run it simply open the solution in Visual Studio and hit ctrl + f5.
+
