@@ -6,37 +6,37 @@ Application needs .NET Core 1.1 framework to be installed. To run it simply open
 Features
 
 Posting: Alice can publish messages to a personal timeline  
-&gt; Alice -> I love the weather today   
-&gt; Bob -> Damn! We lost!  
-&gt; Bob -> Good game though.  
+>&gt; Alice -> I love the weather today   
+>&gt; Bob -> Damn! We lost!  
+>&gt; Bob -> Good game though.  
 
 Reading: I can view Alice and Bob's timelines  
-&gt; Alice  
-I love the weather today (5 minutes ago)  
-&gt; Bob  
-Good game though. (1 minute ago)  
-Damn! We lost! (2 minutes ago)  
+>&gt; Alice  
+>I love the weather today (5 minutes ago)  
+>&gt; Bob  
+>Good game though. (1 minute ago)  
+>Damn! We lost! (2 minutes ago)  
 
 Following: Charlie can subscribe to Alice's and Bob's timelines, and view an aggregated list of all subscriptions  
-&gt; Charlie -> I'm in New York today! Anyone want to have a coffee?  
-&gt; Charlie follows Alice  
-&gt; Charlie wall  
-Charlie - I'm in New York today! Anyone want to have a coffee? (2 seconds ago)  
-Alice - I love the weather today (5 minutes ago)  
-&gt; Charlie follows Bob  
-&gt; Charlie wall  
-Charlie - I'm in New York today! Anyone wants to have a coffee? (15 seconds ago)  
-Bob - Good game though. (1 minute ago)  
-Bob - Damn! We lost! (2 minutes ago)  
-Alice - I love the weather today (5 minutes ago)  
+>&gt; Charlie -> I'm in New York today! Anyone want to have a coffee?  
+>&gt; Charlie follows Alice  
+>&gt; Charlie wall  
+>Charlie - I'm in New York today! Anyone want to have a coffee? (2 seconds ago)  
+>Alice - I love the weather today (5 minutes ago)  
+>&gt; Charlie follows Bob  
+>&gt; Charlie wall  
+>Charlie - I'm in New York today! Anyone wants to have a coffee? (15 seconds ago)  
+>Bob - Good game though. (1 minute ago)  
+>Bob - Damn! We lost! (2 minutes ago)  
+>Alice - I love the weather today (5 minutes ago)  
 
 Details  
 
 The application must use the console for input and output.  
 Users submit commands to the application. There are four commands. "posting", "reading", etc. are not part of the commands; commands always start with the user's name.    
-	 posting: &lt;user name> -> &lt;message>   
-	 reading: &lt;user name>   
-	 following: &lt;user name> follows &lt;another user>   
-	 wall: &lt;user name> wall     
+	 >posting: &lt;user name> -> &lt;message>   
+	 >reading: &lt;user name>   
+	 >following: &lt;user name> follows &lt;another user>   
+	 >wall: &lt;user name> wall     
    
 
