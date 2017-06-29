@@ -1,6 +1,4 @@
-﻿using SocialNetwork.Domain.Exceptions;
-using SocialNetwork.Domain.Models;
-using System;
+﻿using SocialNetwork.Domain.Models;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
